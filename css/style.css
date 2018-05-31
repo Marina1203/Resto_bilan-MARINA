@@ -1,18 +1,22 @@
 @charset "utf-8";
 body {
-    background: whitesmoke;
+    background: wheat;
     margin: 0 auto;
 }
-footer {
-    width: auto;
-    height: auto;
+header {
+    width: 600px;
+    padding-top:  20px;
+    text-align: center;
+    margin-left: 250px;
+    font-weight: 200;
+    font-family:  'Playfair Display SC', serif; /* une police de caractère téléchargée sur le google font */
 }
 
-<<<<<<< HEAD
-=======
+ ul li {
+    display: inline-block; /* inligne block pour mettre des li de ul en ligne */
+}
 
->>>>>>> 3157a2a32d2e1a534f7b7c92bab63940cad9d39e
-#conteneur {
+#conteneur {/*  le conteneur pour mettre le contenu dedans */
     background: white;
     width: 1100px;
     height: auto;
@@ -20,32 +24,32 @@ footer {
     text-align: center;
     
 }
-.first {
+.first { /* une classe pour mettre la première image */
     background: url('../img/plate.jpg') no-repeat left top;
    
 }
-article {
+article { /* parametrage de l'article pour mettre une image dedans */
     width: 500px;
     height: 500px;
     float: left;
 }
-aside {
+aside { /* paramétrage de aside pour mettre le texte dedans */
     width: 500px;
     height: 500px;
      float: right;
     margin-top: 20px;
 }
-.second {
+.second { /* une classe pour mettre la deuxième image */
     background: url('../img/resto_01.jpg') no-repeat right top;
 }
 .texte {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 40px;
-    padding: 10px;
-    font-size: 1.1em;
+    padding: 30px;
+    font-family: 'Playfair Display SC', serif;
+  
     
     }
-    .third {
+    .third { /* une classe pour mettre la troisième image */
         background: url('../img/resto_02.jpg') no-repeat left top;
        
         
@@ -53,12 +57,31 @@ aside {
     .clear {
         clear: both;
     }
-    .forth {
+    .forth { /* une classe pour mettre la quatrième image */
         background: url('../img/resto_03.jpg') no-repeat right top;
     }
-    .fifth {
+    .fifth { /* une classe pour mettre la cinquième image */
         background: url('../img/resto_04.jpg') no-repeat left top;
+        
     }
+    .note {
+        background: black;
+        color: aliceblue;
+        width: 150px;
+    }
+    .footer {
+        background: url('../img/plan.png') no-repeat center;
+        height: 200px;
+     }
+    .footer2 {
+        width: 600px;
+        text-align: center;
+        margin-left: 250px;
+       }
+       .footer p {
+           padding-top: 80px;
+       }
+
 
         
       
