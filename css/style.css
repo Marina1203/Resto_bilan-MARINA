@@ -4,11 +4,14 @@ body {
     margin: 0 auto;
 }
 footer {
-    width: 1100px;
+    width: auto;
     height: auto;
-   
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3157a2a32d2e1a534f7b7c92bab63940cad9d39e
 #conteneur {
     background: white;
     width: 1100px;
@@ -56,8 +59,6 @@ aside {
     .fifth {
         background: url('../img/resto_04.jpg') no-repeat left top;
     }
-    .footer_map {
-        background: url('../img/plan.png') no-repeat center;
-    }
+
         
       
