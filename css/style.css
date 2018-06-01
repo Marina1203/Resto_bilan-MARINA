@@ -1,58 +1,56 @@
 @charset "utf-8";
-body {
+    body {
     background: wheat;
     margin: 0 auto;
-}
-header {
+    }
+    header {
     width: 600px;
     padding-top:  20px;
     text-align: center;
     margin-left: 250px;
     font-weight: 200;
-    font-family:  'Playfair Display SC', serif; /* une police de caractère téléchargée sur le google font */
-}
+    font-family: 'Noto Serif', serif; /* une police de caractère téléchargée sur le google font */
+    
+    }
 
- ul li {
+    ul li {
     display: inline-block; /* inligne block pour mettre des li de ul en ligne */
-}
+    }
 
-#conteneur {/*  le conteneur pour mettre le contenu dedans */
+    #conteneur {/*  le conteneur pour mettre le contenu dedans */
     background: white;
     width: 1100px;
     height: auto;
     margin: 0 auto;
     text-align: center;
     
-}
-.first { /* une classe pour mettre la première image */
+    }
+    .first { /* une classe pour mettre la première image */
     background: url('../img/plate.jpg') no-repeat left top;
    
-}
-article { /* parametrage de l'article pour mettre une image dedans */
+        }
+    article { /* parametrage de l'article pour mettre une image dedans */
     width: 500px;
     height: 500px;
     float: left;
-}
-aside { /* paramétrage de aside pour mettre le texte dedans */
+    }
+    aside { /* paramétrage de aside pour mettre le texte dedans */
     width: 500px;
     height: 500px;
      float: right;
     margin-top: 20px;
-}
-.second { /* une classe pour mettre la deuxième image */
+    }
+    .second { /* une classe pour mettre la deuxième image */
     background: url('../img/resto_01.jpg') no-repeat right top;
-}
-.texte {
+    }
+    .texte {
     margin-top: 40px;
     padding: 30px;
-    font-family: 'Playfair Display SC', serif;
-  
-    
+    font-family: 'Noto Serif',serif;
+    font-size: 1.1em;
     }
     .third { /* une classe pour mettre la troisième image */
         background: url('../img/resto_02.jpg') no-repeat left top;
-       
-        
     }
     .clear {
         clear: both;
@@ -64,24 +62,24 @@ aside { /* paramétrage de aside pour mettre le texte dedans */
         background: url('../img/resto_04.jpg') no-repeat left top;
         
     }
-    .note {
+    .note { /* une classe pour styler le paragraphe */
         background: black;
         color: aliceblue;
         width: 150px;
     }
-    .footer {
+    .footer { /* une classe pour mettre une image en background */
         background: url('../img/plan.png') no-repeat center;
         height: 200px;
      }
-    .footer2 {
+    .footer2 { /* une classe pour mettre ddu texte  */
         width: 600px;
         text-align: center;
         margin-left: 250px;
        }
-       .footer p {
+    .footer p { /* une classe pour mettre du texte sur l'image */
            padding-top: 80px;
        }
-
+      
 
         
       
